@@ -1,5 +1,5 @@
 
-    $('#user').on('keypress', function(){
+    $('#user').on('keyup', function(){
 
         var text = $('#user').val();
          $('.usuario').html(text)
