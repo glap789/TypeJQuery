@@ -28,3 +28,12 @@
 
     })
 
+
+    $("#reset").click(function(){
+
+        var x = $('#x').val()
+        var y = $('#y').val()
+
+        $("#fotito").offset({top: x, left: y});
+    });
+
